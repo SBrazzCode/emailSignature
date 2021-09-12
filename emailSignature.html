@@ -1,110 +1,126 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <style>
-            * {
-                font-style: normal;
-                font-stretch: normal;
-                line-height: normal;
-                letter-spacing: normal;
-                font-family: Arial, sans-serif;
-                font-size: 14px;
-                margin: 0px;
-                padding: 0px;
-                border-spacing: 0px;
-                border-collapse: collapse;
-                color: #222;
-            }
 
-            .table-wrapper {
-                padding-top: 40px;
-            }
+<head>
+    <meta charset="utf-8" />
+    <style>
+        * {
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            margin: 0px;
+            padding: 0px;
+            border-spacing: 0px;
+            border-collapse: collapse;
+            color: #222;
+        }
 
-            .personal-image-wrapper {
-                vertical-align: top;
-                padding-top: 3px;
-            }
+        .table-wrapper {
+            padding-top: 40px;
+        }
 
-            .info-wrapper {
-                padding-left: 15px;
-            }
+        .personal-image-wrapper {
+            vertical-align: top;
+            padding-top: 3px;
+        }
 
-            .info-name {
-                font-size: 16px;
-                font-weight: bold;
-                padding-bottom: 4px;
-            }
+        .info-wrapper {
+            padding-left: 15px;
+        }
 
-            .info-social {
-                padding-top: 8px;
-            }
+        .info-name {
+            font-size: 16px;
+            font-weight: bold;
+            padding-bottom: 4px;
+        }
 
-            .social-icon {
-                padding-right: 5px;
-            }
+        .info-social {
+            padding-top: 8px;
+        }
 
-            .social-icon:last-of-type {
-                padding-right: 0px;
-            }
-            
-            a {
-                color: #75BAA6;
-            }
+        .social-icon {
+            padding-right: 5px;
+        }
 
-        </style>
-    </head>
-    <body>
-        <table>
-            <tr>
-                <td class="table-wrapper">
-                    <table>
-                        <tr>
-                            <td class="personal-image-wrapper">
-                                <img width="80" height="80"
-                                     class="personal-image"
-                                     src="https://drive.google.com/thumbnail?id=1deFAB-zIQYwAoVW9iFQ9zNFjRsQ6Nu9-"
-                                     >
-                            </td>
-                            <td class="info-wrapper">
-                                <table>
-                                    <tr>
-                                        <td class="info-name">Shaun Brazzoni</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="info-profession">Full Stack Web Developer</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="info-phone">*Your Phone Number* | <a href="http://realShaun.com">realShaun.com</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="info-social">
-                                            <table>
-                                                <tr>
-                                                    <td class="social-icon">
-                                                        <a href="https://www.linkedin.com/in/shaunbrazzoni-sds/" target="_blank">
-                                                            <img height="20" width="20"
-                                                                 class="social-icon-img"
-                                                                 src="https://drive.google.com/thumbnail?id=15FjcihhmfAoPe3eXWHg10btQcbx4kUvi">
-                                                        </a>
-                                                    </td>
-                                                    <td class="social-icon">
-                                                        <a href="https://github.com/SBrazzCode" target="_blank">
-                                                            <img height="20" width="20"
-                                                                 class="social-icon-img"
-                                                                 src="https://drive.google.com/thumbnail?id=18D5g8oXiGKz7NiIq43NIFvoZPx-Tn5yY" >
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                </table>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </body>
+        .social-icon:last-of-type {
+            padding-right: 0px;
+        }
+
+        a {
+            color: #E8685A;
+        }
+
+        @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+            img {
+                image-rendering: -webkit-optimize-contrast !important;
+            }
+        }
+
+        /* Unset for Safari 11+ */
+        @media not all and (min-resolution:.001dpcm) {
+            @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+                img {
+                    image-rendering: unset !important;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td class="table-wrapper">
+                <table>
+                    <tr>
+                        <td class="personal-image-wrapper">
+                            <img width="80" height="80" class="personal-image"
+                                src="https://drive.google.com/uc?export=view&id=1XVwoRRKc8JBEt0_ump09k74uDiznjC8f"
+                                style="-ms-interpolation-mode: bicubic;">
+                        </td>
+                        <td class="info-wrapper">
+                            <table>
+                                <tr>
+                                    <td class="info-name">Shaun Brazzoni</td>
+                                </tr>
+                                <tr>
+                                    <td class="info-profession">Full Stack Web Developer</td>
+                                </tr>
+                                <tr>
+                                    <td class="info-phone">(403) 464-6609 | <a
+                                            href="http://realShaun.com">realShaun.com</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="info-social">
+                                        <table>
+                                            <tr>
+                                                <td class="social-icon">
+                                                    <a href="https://www.linkedin.com/in/shaunbrazzoni-sds/"
+                                                        target="_blank">
+                                                        <img height="20" width="20" class="social-icon-img"
+                                                            src="https://drive.google.com/thumbnail?id=15FjcihhmfAoPe3eXWHg10btQcbx4kUvi">
+                                                    </a>
+                                                </td>
+                                                <td class="social-icon">
+                                                    <a href="https://github.com/SBrazzCode" target="_blank">
+                                                        <img height="20" width="20" class="social-icon-img"
+                                                            src="https://drive.google.com/thumbnail?id=18D5g8oXiGKz7NiIq43NIFvoZPx-Tn5yY">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
 </html>
